@@ -109,7 +109,7 @@
         // }
 
         const loader = new GLTFLoader();
-        loader.load("/models/kian.glb", (gltf) => {
+        loader.load("models/kian.glb", (gltf) => {
           data.model = gltf.scene;
           data.scene.add(data.model);
           data.model.rotation.y = Math.PI / 2 + 0.4;
